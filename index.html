@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header layout">
+        <nav class="header__nav" data-aos="fade-down" data-aos-duration="1000">
+          <a href="#" class="header__nav--logo">
+            <img src="/assets/images/logo.svg" alt="logo" />
+          </a>
+          <a href="#" class="header__nav--cta btn"> Try It Free </a>
+        </nav>
+        <section class="header__hero">
+          <div class="header__hero--content">
+            <h1
+              class="header__hero--content__title"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Build The Community Your Fans Will Love
+            </h1>
+            <p
+              class="header__hero--content__details"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <a
+              href="#"
+              class="header__hero--content__btn btn heartbeat"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              >Get Started For Free</a
+            >
+          </div>
+          <div
+            class="header__hero--img"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/assets/images/illustration-mockups.svg"
+              alt="hero image"
+              class="jello-horizontal"
+            />
+          </div>
+        </section>
+      </header>
+      <section class="layout features" id="grow">
+        <div
+          class="features__feature"
+          data-aos="fade-left"
+          data-aos-anchor="#grow"
+          data-aos-offset="500"
+          data-aos-duration="1000"
+        >
+          <div class="features__feature--content">
+            <h1
+              class="features__feature--content__title"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >
+              Grow Together
+            </h1>
+            <p
+              class="features__feature--content__details"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1500"
+            >
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <div class="features__feature--img">
+            <img
+              src="/assets/images/illustration-grow-together.svg"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              data-aos-delay="2000"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="features__feature"
+          id="flow"
+          data-aos="fade-right"
+          data-aos-anchor="#flow"
+          data-aos-offset="500"
+          data-aos-duration="1000"
+        >
+          <div class="features__feature--content">
+            <h1
+              class="features__feature--content__title"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >
+              Flowing Conversations
+            </h1>
+            <p
+              class="features__feature--content__details"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              data-aos-delay="2000"
+            >
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+          <div class="features__feature--img">
+            <img
+              src="/assets/images/illustration-flowing-conversation.svg"
+              alt=""
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="2000"
+            />
+          </div>
+        </div>
+        <div
+          class="features__feature"
+          id="user"
+          data-aos="fade-left"
+          data-aos-anchor="#user"
+          data-aos-offset="500"
+          data-aos-duration="1000"
+        >
+          <div class="features__feature--content">
+            <h1
+              class="features__feature--content__title"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >
+              Your Users
+            </h1>
+            <p
+              class="features__feature--content__details"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-delay="2000"
+            >
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <div class="features__feature--img">
+            <img
+              src="/assets/images/illustration-your-users.svg"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              data-aos-delay="2000"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        class="cta layout"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
+        <div class="cta__card">
+          <h1 class="cta__card--title">Ready To Build Your Community?</h1>
+          <a href="#" class="cta__card--btn heartbeat">Get Started For Free</a>
+        </div>
+      </section>
+      <footer class="footer layout">
+        <img
+          src="/assets/images/logo.svg"
+          class="footer__img jello-horizontal"
+          alt=""
+        />
+        <div class="footer__links">
+          <div class="footer__col">
+            <ul>
+              <li>
+                <img src="/assets/images/icon-location.svg" alt="" />
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </span>
+              </li>
+              <li>
+                <img src="/assets/images/icon-phone.svg" alt="" />
+                <span> +1-543-123-4567</span>
+              </li>
+              <li>
+                <img src="/assets/images/icon-email.svg" alt="" />
+                <span>example@huddle.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <ul>
+              <li>About Us</li>
+              <li>What We Do</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <ul>
+              <li>Carrer</li>
+              <li>Blog</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <ul class="social__icons">
+              <li>
+                <i class="fab fa-facebook social__icons--icon"></i>
+              </li>
+              <li>
+                <i class="fab fa-twitter social__icons--icon"></i>
+              </li>
+
+              <li>
+                <i class="fab fa-instagram social__icons--icon"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="copy-right">
+          &copy; Copyright 2018 Huddle. All rights reserved.
+        </p>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
