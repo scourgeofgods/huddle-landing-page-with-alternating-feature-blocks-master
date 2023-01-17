@@ -210,7 +210,7 @@ li {
 }
 
 .features {
-  padding: var(--padding-d-l-v) var(--padding-d-lc-h);
+  padding: var(--padding-d-mcc-v) var(--padding-d-lc-h) var(--padding-d-mcc-v);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -374,7 +374,7 @@ li {
     align-items: center;
   }
   .header__hero--content__title {
-    font-size: var(--font-size-d-mc);
+    font-size: var(--font-size-d-m);
   }
   .header__hero--content__details {
     font-size: var(--font-size-d-sc);
@@ -384,7 +384,7 @@ li {
     padding: var(--padding-d-xs-v) var(--padding-d-mc-h);
   }
   .features {
-    padding: var(--padding-d-mc-v) var(--padding-d-xs-h);
+    padding: var(--padding-d-mcc-v) var(--padding-d-xs-h);
   }
   .features__feature {
     flex-direction: column;
@@ -406,7 +406,7 @@ li {
     flex-direction: column-reverse;
   }
   .cta {
-    padding: var(--padding-d-mc-v);
+    padding: var(--padding-d-mcc-v);
   }
   .cta__card--title {
     font-size: var(--font-size-d-s);
